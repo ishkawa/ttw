@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'stream' target in the 'stream' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

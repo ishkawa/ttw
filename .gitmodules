@@ -1,0 +1,6 @@
+[submodule "Libraries/OAuthCore"]
+	path = Libraries/OAuthCore
+	url = https://github.com/atebits/OAuthCore.git
+[submodule "Libraries/NSDictionary-URLQuery"]
+	path = Libraries/NSDictionary-URLQuery
+	url = git@github.com:ishkawa/NSDictionary-URLQuery.git
