@@ -34,7 +34,7 @@
     NSUInteger flag = (NSHourCalendarUnit|NSMinuteCalendarUnit|NSSecondCalendarUnit);
     NSDateComponents *components = [cal components:flag fromDate:self];
     
-    return [NSString stringWithFormat:@"[%02ld:%02ld]", [components hour], [components minute]];
+    return [NSString stringWithFormat:@"%02ld:%02ld", [components hour], [components minute]];
 }
 
 @end
