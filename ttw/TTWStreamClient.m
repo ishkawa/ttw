@@ -38,6 +38,11 @@
 
 #pragma mark - NSURLConnectionDataDelegate
 
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
+{
+    printf("connected.\n");
+}
+
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
 {
     if ([data isEqualToData:[@"\r\n" dataUsingEncoding:NSUTF8StringEncoding]]) {
